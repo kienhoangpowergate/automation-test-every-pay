@@ -2,10 +2,12 @@
 
 source 'https://rubygems.org'
 
-ruby '2.2.3'
-
 gem 'rake'
 gem 'rack-server-pages'
+gem 'capybara'
+gem 'rspec'
+gem 'selenium-webdriver'
+gem 'byebug'
 
 group :assets do
   gem 'sprockets'
